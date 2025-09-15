@@ -1,0 +1,8 @@
+.nav-links a:hover {
+  color: #ff6200;
+}
+
+.btn-contact:hover {
+  background-color: black;
+  color: white;
+}
