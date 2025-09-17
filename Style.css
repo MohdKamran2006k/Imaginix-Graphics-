@@ -9,10 +9,22 @@
   background-color: white;
 }
 
+navbar{
+  height: 80px;
+  width: 100%;
+  border: #2b2a2b 2px;
+}
+
 .navbar-in {
   height: 80px;
   padding: 10px 40px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .logo img {
@@ -123,10 +135,17 @@ h2 {
 .section-3-maindiv {
   padding: 80px;
   background-color: white;
+  position: sticky;
 }
+
 
 .section-3-left {
   padding: 0px 20px;
+}
+
+.section-3-left img{
+  width: 100%;
+  padding: 10px 20px;
 }
 
 .section-3-left p {
@@ -150,7 +169,8 @@ h2 {
 .section-3-right {
   padding: 0px 40px;
   gap: 30px;
-  height: 95vh;
+  position: sticky;
+  height: 110vh;
   overflow-y: scroll;
 }
 
