@@ -6,3 +6,9 @@
   background-color: black;
   color: white;
 }
+
+.section-3-right-down:hover{
+  color: #ff6200;
+  transition: all .2s ease-in;
+  font-size: 1.3rem;
+}

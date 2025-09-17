@@ -5,8 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-.body{
-    background-color: white;
+.body {
+  background-color: white;
 }
 
 .navbar-in {
@@ -46,7 +46,7 @@
 }
 
 .section-1 {
-  padding:80px;
+  padding: 80px;
   background-color: white;
   gap: 20px;
   align-items: start;
@@ -93,29 +93,91 @@ h2 {
   border-radius: 50px;
   font-size: medium;
 }
- 
-.section-2{
-    padding: 40px 80px;
-    gap: 50px;
-    flex-wrap: wrap;
-    background-color: #2b2a2b;
+
+.section-2 {
+  padding: 40px 80px;
+  gap: 50px;
+  flex-wrap: wrap;
+  background-color: #2b2a2b;
 }
 
-.section-2-inner{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    font-size: large;
+.section-2-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  font-size: large;
 }
-.section-2-title{
-    font-size: 50px;
-    font-weight: 700;
-    color: white;
+.section-2-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
 }
 
-.section-2-description{
-    font-size: 20px;
-    color: white;
-    font-weight: 500;
+.section-2-description {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.section-3-maindiv {
+  padding: 80px;
+  background-color: white;
+}
+
+.section-3-left {
+  padding: 0px 20px;
+}
+
+.section-3-left p {
+  font-size: 1.2rem;
+  color: rgb(82, 81, 81);
+  padding: 10px 0px;
+}
+
+.section-3-left h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: black;
+}
+
+.section-3-right-up {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+.section-3-right {
+  padding: 0px 40px;
+  gap: 30px;
+  height: 95vh;
+  overflow-y: scroll;
+}
+
+.section-3-right-img img {
+  width: 120px;
+  padding: 10px;
+}
+
+.section-3-right-text {
+  padding: 0px 20px;
+}
+
+.section-3-right-text p {
+  padding: 10px 0px;
+  color: rgb(82, 81, 81);
+  font-size: 1.1rem;
+}
+
+.section-3-right-down {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.section-3-right-down img {
+  padding-left: 10px;
+  width: 35px;
 }
