@@ -1,10 +1,12 @@
 .nav-links a:hover {
   color: #ff6200;
+  transition: all 0.2s linear;
 }
 
 .btn-contact:hover {
   background-color: black;
   color: white;
+  transition: all 0.2s linear;
 }
 
 .section-3-right-down:hover{
