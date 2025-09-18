@@ -21,3 +21,14 @@
   transition: all 0.2s linear;
 }
 
+.section-5-button:hover {
+  padding: 10px 40px;
+  background-color: #000000;
+  border: none;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: medium;
+  transition: all 0.2s linear;
+}

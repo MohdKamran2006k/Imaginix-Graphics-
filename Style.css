@@ -258,3 +258,53 @@ h2 {
 .section-4-button img {
   width: 30px;
 }
+
+.section-5-maindiv {
+  padding: 0px 80px;
+  background-color: #ffc514;
+  align-items: center;
+  height: 65vh;
+}
+
+.section-5-img{
+  height: 100%;
+}
+
+.section-5-img img {
+  height: 100%;
+  object-fit: contain;
+} 
+
+.section-5-text {
+  padding: 20px 60px;
+  text-align: left;
+}
+.section-5-text span {
+  font-size: 4rem;  
+  font-weight: 700;
+  color: black;
+  line-height: 1.2;
+}
+
+.section-5-text p {
+  font-size: 1.5rem;
+  color: black;
+  line-height: 1.5;
+  margin: 20px 0px;
+  font-weight: 500;
+}
+
+.section-5-button {
+  padding: 10px 40px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  width: 200px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: medium;
+  transition: all 0.2s linear;
+  margin-top: 20px;
+  font-size: 1.2rem;
+} 
