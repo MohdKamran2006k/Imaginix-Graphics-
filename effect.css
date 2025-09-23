@@ -32,3 +32,8 @@
   font-size: medium;
   transition: all 0.2s linear;
 }
+
+.section-6-content-up span:hover{
+  background-color: blue;
+  transition: all .5s linear;
+}

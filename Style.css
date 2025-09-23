@@ -325,16 +325,34 @@ h2 {
   text-shadow: #2b2a2b 0px 0px 2px;
 }
 
+.section-6-content-main {
+  gap: 25px;
+}
+
 .section-6-content-up {
   width: 70vw;
-  padding: 20px 40px;
+  padding: 0px 40px;
   background-color: #ffc514;
   font-size: 1.2rem;
   font-weight: 600;
+  box-shadow: 1px 0px 10px #2b2a2b;
+  border-radius: 30px;
 }
+
+.section-6-content-up span{
+  height: 60px;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-6-down {
-  padding: 20px 0px;
+  padding: 30px 60px;
   gap: 20px;
+  box-shadow: 1px 0px 10px #2b2a2b;
+  border-radius: 30px;
 }
 
 .section-6-img img {
@@ -344,4 +362,20 @@ h2 {
 
 .section-6-down-text {
   gap: 20px;
+}
+
+.section-6-down-text > span {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.section-6-down-text p {
+  color: #2b2a2b;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.section-6-down-text li {
+  font-size: 1.03rem;
+  font-weight: 600;
 }
