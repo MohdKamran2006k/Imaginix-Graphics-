@@ -339,7 +339,7 @@ h2 {
   border-radius: 30px;
 }
 
-.section-6-content-up span{
+.section-6-content-up span {
   height: 60px;
   padding: 10px 20px;
   text-align: center;
@@ -378,4 +378,16 @@ h2 {
 .section-6-down-text li {
   font-size: 1.03rem;
   font-weight: 600;
+}
+
+.section-7-container {
+  padding: 20px 80px;
+}
+
+.section-7-content {
+  width: 50vw;
+}
+
+.section-7-img img {
+  width: 45px;
 }
