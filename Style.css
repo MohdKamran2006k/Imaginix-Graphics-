@@ -415,7 +415,7 @@ h2 {
   padding: 15px;
 }
 
-.section-7-paragraph{
+.section-7-paragraph {
   gap: 5px;
 }
 
@@ -426,4 +426,30 @@ h2 {
 
 .section-7-paragraph p {
   color: #2b2a2b;
+}
+
+.section-8-maindiv {
+  background-color: #2b2a2b;
+  padding: 20px 40px;
+  gap: 30px;
+  color: white;
+}
+
+.section-8-maindiv h3 {
+  font-size: 2.8rem;
+}
+
+.section-8-img {
+  gap: 20px;
+}
+
+.section-8-maindiv p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.section-8-img img {
+  height: 200px;
+  width: 400px;
 }
